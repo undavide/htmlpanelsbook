@@ -1,0 +1,165 @@
+div#sib_embed_signup {
+    padding: 0;
+}
+
+div#sib_embed_signup .needsfilled input {
+    border-color: #B94A48 !important;
+    color: #B94A48 !important;
+}
+
+div#sib_embed_signup .needsfilled {
+    color: #B94A48 !important;
+}
+
+div#sib_embed_signup input[type="text"] {
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+div#sib_embed_signup div.message_area {
+    position: relative;
+    padding: 10px 30px 10px 10px;
+    margin: 0px 0px 10px 0px;
+    font-size: 14px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    box-sizing: border-box;
+}
+
+div#sib_embed_signup div.message_area button.close {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    color: inherit;
+    background: 0 0;
+    border: 0;
+    padding: 0px;
+    -webkit-appearance: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+div#sib_embed_signup .container {
+    background: rgba(255, 127, 44, 1);
+}
+
+div#sib_embed_signup .container h1 {
+    font-family: 'Oswald', Georgia, Times, 'Times New Roman', serif;
+}
+
+div#sib_embed_signup h1.title {
+    font-size: 24px;
+}
+
+div#sib_embed_signup .container .byline,
+div#sib_embed_signup .container .description,
+div#sib_embed_signup .container .fake-label,
+div#sib_embed_signup .container .row,
+div#sib_embed_signup .container #company-name {
+    font-family: Futura, 'Century Gothic', 'Apple Gothic', sans-serif;
+}
+
+div#sib_embed_signup .byline,
+div#sib_embed_signup div.description,
+div#sib_embed_signup .fake-label,
+div#sib_embed_signup .row {
+    font-size: 11px;
+}
+
+div#sib_embed_signup .container .button {
+    font-family: Futura, 'Century Gothic', 'Apple Gothic', sans-serif;
+}
+
+div#sib_embed_signup .button {
+    font-size: 11px;
+}
+
+div#sib_embed_signup .button:hover {
+    background-color: red;
+}
+
+div#sib_embed_signup input {
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+div#sib_embed_signup .containter h1 {
+    color: #ffffff;
+}
+
+div#sib_embed_signup .container {
+    color: #ebdcc7;
+}
+
+div#sib_embed_signup .container .button {
+    background-color: #ff9753;
+    color: #ffffff;
+    box-shadow:0 4px 4px rgba(100,50,0,.2); 
+    width: 260px !important;
+    display: block; 
+    margin: 1rem auto; 
+    font-size: 1rem; 
+    padding: .5rem; 
+    border-radius: 5px; 
+    border-style:none
+}
+
+div#sib_embed_signup .container .button:hover {
+    background-color: #ff6400;
+}
+
+div#sib_embed_signup .wrapper {
+    width: 300px;
+    height: 300px;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#sib_embed_signup .container {
+    padding: 10px 8px 8px;
+}
+
+div#sib_embed_signup .header {
+    padding: 0 5px;
+}
+
+div#sib_embed_signup h1.title {
+    lineHeight: 24px;
+    font-size: 1.6154rem
+}
+
+div#sib_embed_signup h3.company-name {
+    lineHeight: 14px;
+}
+
+div#sib_embed_signup div.description {
+    padding: 0 5px 10px;
+}
+
+div#sib_embed_signup div.row {
+    padding: 5px;
+}
+
+div#sib_embed_signup input[type=text] {
+    padding: 4px;
+    width: 155px;
+}
+
+div#sib_embed_signup button {
+    padding: 0px 10px;
+}
+
+#sib_embed_invalid_email_message {
+    position: absolute;
+    z-index: 9999;
+    display: none;
+}
+
+#subscribe-btn:hover {
+    background-color: red;
+}
