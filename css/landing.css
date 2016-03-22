@@ -15,13 +15,15 @@ body {
 }
 
 em {
-    font-weight: 600;
+    font-weight: 800;
+    color: black;
+    background-color: #e8dbce;
 }
 
 p, li {
     color: #222222;
     line-height: 1.5rem;
-    margin: 1em 0;
+    margin: 0 0;
 }
 
 h1, h2, header h3 {
@@ -43,12 +45,23 @@ h1 {
 }
 
 h2 {
-    font-family: 'Tungsten A', 'Tungsten B';
+    font-family: 'Oswald', sans-serif;
     font-weight: 400;
     color: #222222;
     font-size: 2.6154rem;
-    margin: 3rem auto;
+    margin: 3rem auto 1rem auto;
     text-align: center;
+}
+
+.copy h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.5em;
+}
+
+.copy p {
+    margin-bottom: 1em;
 }
 
 h3 {
@@ -109,7 +122,7 @@ h2.testimonial > span::after {
 }
 
 h2.testimonial {
-    /*font-family: 'Archer A', 'Archer B';*/
+    font-family: 'Archer A', 'Archer B';
 
     font-weight: 500;
     font-style: italic;
@@ -130,7 +143,7 @@ header ul > li, .copy ul > li, .faq ul > li {
     margin-bottom: 1em;
 }
 
-header ul > li::before, .copy ul > li::before, .faq ul > li::before {
+header ul > li::before, .copy ul > li::before, .faq ul > li::before, ul.points > li::before {
     background-image: url(../img/point.png);
     background-repeat: no-repeat;
     background-size: .5em;
@@ -141,6 +154,26 @@ header ul > li::before, .copy ul > li::before, .faq ul > li::before {
     left: -1em;
     top: .4em;
 }
+
+ul.points > li {
+    list-style-type: none;
+    margin-bottom: 0.5em;
+    position: relative;
+    padding-left: 2rem;
+}
+
+ul.points > li::before {
+    background-image: url(../img/point.png);
+    background-repeat: no-repeat;
+    background-size: .5em;
+    content: "";
+    width: .8em;
+    height: .7em;
+    position: absolute;
+    left: 1em;
+    top: .4em;
+}
+
 
 div.sample {
     margin-top: 4rem;
@@ -279,6 +312,8 @@ div.sample {
 
 .keep-scrolling {
     text-align: center;
+    margin-top: 10px;
+    font-weight: 800;
 }
 
 a {
@@ -305,7 +340,7 @@ header > figure > figcaption {
 }
 
 .packages figure {
-    float: left;
+/*    float: left;*/
     padding-right: 1em;
     padding-bottom: 1em;
 }
@@ -342,6 +377,17 @@ ul.packages {
     margin: 0;
 }
 
+.packages > li h3.name {
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1rem 0;
+    margin: 0;
+    line-height: 2.5rem;
+}
+
 .packages > li h3 > a {
     color: #222222;
 }
@@ -370,9 +416,9 @@ ul.packages {
 }
 
 .packages > li .buy {
-    font-family: 'Tungsten A', 'Tungsten B';
+    font-family: 'Oswald', sans-serif;
     font-weight: 400;
-    background-color: #e46119;
+    background-color: #ff7f2c;
     border-radius: 5px;
     padding: 1.5rem 0;
     text-align: center;
@@ -418,17 +464,24 @@ ul.packages {
 }
 
 .interviews > li > figure {
-    margin-right: 1em;
+    margin-right: auto;
     margin-bottom: 1em;
+    margin-left: auto;
     padding: 2px;
-    box-shadow: 0px 0px 5px 1px #91b5d7;
-    background-color: #eeeeee;
+/*    box-shadow: 0px 0px 5px 1px #91b5d7;*/
+/*    background-color: #eeeeee;*/
 }
 
 .interviews > li > figure > img, .interviews > li > figure {
-    width: 73px;
+/*    width: 73px;*/
     display: block;
-    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+/*    border-radius: 50%;*/
+}
+
+.interviews > li {
+    margin-bottom: 3rem;
 }
 
 .packages .explanation {
@@ -505,7 +558,14 @@ ul.packages {
 }
 
 .packages h3.complete-top {
-    padding-top: 7rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 2.6154rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 4rem 0 1rem 0;
+    margin: 0;
+    line-height: 3rem;
 }
 
 .packages h3.incomplete a {
@@ -530,7 +590,43 @@ header > #cta1 > #mc_embed_signup {
 }
 */
 
+#video-image {
+    /* 400 x 243*/
+    height:122px; 
+    width:200px
+}
+
+.strike {
+    position: relative;
+    display: inline-block;
+}
+.strike::before {
+    content: '';
+    border-bottom: 8px solid rgba(110,50,20,.5);
+    width: 120%;
+    position: absolute;
+    right: -13%;
+    top: 44%;
+
+    transform:rotate(-28deg);
+    -ms-transform:rotate(-28deg);
+    -moz-transform:rotate(-28deg);
+    -webkit-transform:rotate(-28deg);
+    -o-transform:rotate(-28deg);
+
+}
+
+.packages .cta > .buy {
+/*    margin: 2rem auto 0rem auto;*/
+    margin-left: -2.2rem;
+}
+
 @media screen and (min-width: 675px) {
+    
+    #video-image {
+        height:243px; 
+        width:400px
+    }
     .group:after {
         content: "";
         display: table;
@@ -659,6 +755,43 @@ header > #cta1 > #mc_embed_signup {
         clear: both;
     }
 
+    /* --------- */
+    .packages .videos .benefits > li.big, .packages .complete .benefits > li.big,
+    .packages .book .benefits > li.big, .packages .interviews > li.big {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 100%;
+        float: left;
+        margin-bottom: 0;
+    }
+
+    .packages .complete .benefits > li.big, .packages .videos .benefits > li.big {
+        padding-right: 1rem;
+    }
+
+    .packages .interviews > li.big:nth-of-type(2n + 1) {
+        clear: left;
+        padding-right: 1rem;
+    }
+
+    .packages .interviews > li.big:nth-of-type(2n) {
+        padding-left: 1rem;
+    }
+
+    .packages .interviews > li.big > figure, .packages .interviews > li.big > p {
+        margin: 0;
+    }
+
+    .packages .interviews > li.big > figure {
+        margin-top: .5rem;
+        margin-right: .5rem;
+    }
+
+    .packages .interviews {
+        clear: both;
+    }    
+    /* --------- */
     .packages .cta > .buy {
         margin: 2rem auto 0rem auto;
     }
