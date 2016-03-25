@@ -885,4 +885,6 @@ p.testimonial {
     margin: 1rem;
 }
 
-
+.gumroad-button-logo {
+    display: none !important;
+}
