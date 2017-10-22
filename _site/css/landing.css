@@ -1,0 +1,892 @@
+h2.testimonial, div.get, .copy, .faq, .sample, .packages > li > .wrapper,
+.interviews > li > p {
+    width: 16rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    /*padding: 1em;*/
+    color: #222222;
+    font-size: 1rem;
+    background-color: #e8e8e8;
+}
+
+em {
+    font-weight: 800;
+    color: black;
+    background-color: #e8dbce;
+}
+
+p, li {
+    color: #222222;
+    line-height: 1.5rem;
+    margin: 0 0;
+}
+
+h1, h2, header h3 {
+    font-family: 'Oswald';
+    font-weight: 400;
+}
+
+header h3 {
+    font-size: 1.6154rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #3c3c3c;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: #222222;
+    font-size: 2.6154rem;
+    margin: 3rem auto 1rem auto;
+    text-align: center;
+}
+
+.copy h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.5em;
+}
+
+.copy p {
+    margin-bottom: 1em;
+}
+
+h3 {
+    font-size: 1.6154rem;
+    margin-bottom: 1rem;
+    margin-top: 1.3rem;
+}
+
+h1 > span {
+    display: block;
+    font-family: 'Oswald', sans-serif;
+}
+
+h1 .top {
+    font-size: 9rem;
+    font-weight: 700;
+}
+
+h1 > .middle {
+    font-weight: 400;
+    font-size: 2rem;
+    margin: 0.5rem 0;
+    /*font-style: italic;*/
+    color: #00a6fa;
+}
+
+h1 > .bottom {
+    /*color: #011925;*/
+    font-weight: 400;
+    font-size: 5.6rem;
+    letter-spacing: -2px;
+    
+}
+
+h1 > .sketch {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    font-size: 7.4rem;
+}
+
+h2.die {
+    text-transform: uppercase;
+    max-width: 30rem;
+}
+
+h2.testimonial > span.quote::before {
+    font-family: 'Archer A', 'Archer B';
+    font-weight: 500;
+    content: open-quote;
+    margin-top: 3rem;
+    margin-left: -3rem;
+    position: absolute;
+    font-size: 17.1155rem;
+    z-index: -1;
+    color: #dce7f2;
+}
+
+h2.testimonial > span::after {
+    content: close-quote;
+}
+
+h2.testimonial {
+    font-family: 'Archer A', 'Archer B';
+
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1.6154rem;
+    color: #2a4f73;
+    line-height: 1.357em;
+    text-align: left;
+}
+
+ul.packages .testimonial {
+    position: relative;
+    z-index: 0;
+}
+
+header ul > li, .copy ul > li, .faq ul > li {
+    list-style-type: none;
+    position: relative;
+    margin-bottom: 1em;
+}
+
+header ul > li::before, .copy ul > li::before, .faq ul > li::before, ul.points > li::before {
+    background-image: url(../img/point.png);
+    background-repeat: no-repeat;
+    background-size: .5em;
+    content: "";
+    width: .8em;
+    height: .7em;
+    position: absolute;
+    left: -1em;
+    top: .4em;
+}
+
+ul.points > li {
+    list-style-type: none;
+    margin-bottom: 0.5em;
+    position: relative;
+    padding-left: 2rem;
+}
+
+ul.points > li::before {
+    background-image: url(../img/point.png);
+    background-repeat: no-repeat;
+    background-size: .5em;
+    content: "";
+    width: .8em;
+    height: .7em;
+    position: absolute;
+    left: 1em;
+    top: .4em;
+}
+
+
+div.sample {
+    margin-top: 4rem;
+    margin-bottom: -4rem;
+    padding: 2rem 1rem;
+    background-color: white;
+    position: relative;
+    z-index: 0;
+    box-shadow: 1px 1px 10px #626262;
+    border: 1px solid #959595;
+}
+
+.sample h2 {
+    margin: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sample h2 span {
+    color: #e46119;
+}
+
+.sample h4 {
+    width: 13rem;
+    margin: 2rem auto;
+    text-align: center;
+    color: #222222;
+    line-height: 1.375rem;
+}
+
+.sample h4.testimonial {
+    font-style: italic;
+    text-align: left;
+}
+
+.sample > h4 > .left-quote {
+    position: absolute;
+    margin-left: -.5em;
+    margin-bottom: -.5em;
+    font-size: 1.6154rem;
+}
+
+.by {
+    display: block;
+    text-align: right;
+    padding-top: 1rem;
+}
+
+.sample > form {
+    margin: 2rem auto;
+}
+
+.sample > form input {
+    width: 13rem;
+    display: block;
+    margin: 1rem auto;
+    font-size: 1rem;
+    padding: .5rem;
+    color: #222222;
+}
+
+.sample > form label {
+    width: 14rem;
+    margin: 0 auto;
+    display: block;
+}
+
+.sample > form div.opt-in {
+    width: 14rem;
+    margin: 0 auto;
+}
+
+.sample > form div.opt-in > label, .sample > form div.opt-in > input {
+    display: inline;
+    width: initial;
+    margin: 0;
+}
+
+.sample > form div.opt-in > label {
+    line-height: 1.4em;
+}
+
+.sample > form .button {
+    padding: .75em;
+    font-size: 1rem;
+    background: #3c3c3c;
+    border: 1px solid #3c3c3c;
+    border-radius: 5px;
+    color: #eeeeee;
+    display: block;
+    width: 13rem;
+    margin: 2rem auto 0 auto;
+}
+
+#ck_success_msg p {
+    text-align: center;
+}
+
+#cta1 > a {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    background-color: #e46119;
+    border-radius: 5px;
+    padding: 1.5rem 1rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    font-size:1.5rem;
+    text-transform: uppercase;
+    color: white;
+    box-shadow: 1px 1px 5px #222222;
+    width: 17rem;
+    line-height: 1rem;
+    display: block;
+    max-width: 18rem;
+    width: 100%;
+    margin: 3rem auto;
+}
+
+#cta1 > a:hover {
+    -webkit-filter: brightness(110%);
+}
+
+#cta1 > a:active {
+    -webkit-filter: grayscale(80%) blur(1px);
+}
+
+#cta1 > a > img {
+    width: 1em;
+    margin-bottom: -7px;
+    padding-right: 6px;
+}
+
+.keep-scrolling {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 800;
+}
+
+a {
+    color: #3e75ab;
+    text-decoration: none;
+}
+
+header > figure > img {
+    display: block;
+    margin: 0 auto;
+    max-width: 20rem;
+}
+
+header > figure {
+    padding-bottom: 2.875rem;
+}
+
+header > figure > figcaption {
+    text-align: center;
+}
+
+.packages figure > figcaption {
+    display: none;
+}
+
+.packages figure {
+/*    float: left;*/
+    padding-right: 1em;
+    padding-bottom: 1em;
+}
+
+ul.packages {
+    background-color: white;
+    list-style-type: none;
+    margin-left: -1em;
+    margin-right: -1em;
+}
+
+.packages .name {
+    color: #2a4f73;
+    font-weight: 600;
+}
+
+.packages > li {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 3rem;
+}
+
+.packages > li:nth-child(2) {
+    background-color: #eff4f9;
+}
+
+.packages > li h3 {
+    font-family: 'Tungsten A', 'Tungsten B';
+    font-weight: 400;
+    font-size: 2.6154rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 3rem 0;
+    margin: 0;
+}
+
+.packages > li h3.name {
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1rem 0;
+    margin: 0;
+    line-height: 2.5rem;
+}
+
+.packages > li h3 > a {
+    color: #222222;
+}
+
+.packages > li h4 {
+    font-family: 'Tungsten A', 'Tungsten B';
+    font-weight: 400;
+    font-size: 1.6154rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.packages > li .buy > .old {
+    color: #626262;
+    text-decoration: line-through;
+    font-size: 1.6154rem;
+    padding: 0 5px 0 0;
+}
+
+.packages > li .buy > .new {
+    font-weight: 800;
+    color: #222222;
+    text-shadow: 1px 1px #eee;
+    font-size: 2.6154rem;
+}
+
+.packages > li .buy {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    background-color: #ff7f2c;
+    border-radius: 5px;
+    padding: 1.5rem 0;
+    text-align: center;
+    font-size: 2.6154rem;
+    text-transform: uppercase;
+    color: white;
+    box-shadow: 1px 1px 5px #222222;
+    width: 17rem;
+    line-height: 1rem;
+    display: block;
+    margin-top: 3rem;
+}
+
+.packages > li a.buy:hover {
+    -webkit-filter: brightness(110%);
+    cursor: pointer;
+}
+
+.packages > li a.buy:active {
+    -webkit-filter: grayscale(80%) blur(1px);
+}
+
+.paypal {
+    text-align: right;
+    width: 17rem;
+    margin: .5em auto;
+    font-size: .85rem;
+}
+
+#about figure {
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    float: left;
+/*    width: 33%;*/
+}
+
+#about figure > img {
+    padding: 2px;
+/*    box-shadow: 0px 0px 5px 1px #91b5d7;*/
+    background-color: #eeeeee;
+    float: left;
+    width: 100%;
+}
+
+.interviews > li > figure {
+    margin-right: auto;
+    margin-bottom: 1em;
+    margin-left: auto;
+    padding: 2px;
+/*    box-shadow: 0px 0px 5px 1px #91b5d7;*/
+/*    background-color: #eeeeee;*/
+}
+
+.interviews > li > figure > img, .interviews > li > figure {
+/*    width: 73px;*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+/*    border-radius: 50%;*/
+}
+
+.interviews > li {
+    margin-bottom: 3rem;
+}
+
+.packages .explanation {
+    padding: 2rem 0;
+}
+
+.packages .benefits > li {
+    list-style-type: none;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0 0 1rem 2rem;
+}
+
+.packages .benefits > li:last-child {
+    padding-bottom: 0;
+}
+
+.packages .benefits > li::before {
+    background-repeat: no-repeat;
+    background-size: 1rem;
+    content: "";
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    left: 0;
+    top: .4rem;
+}
+
+.packages .benefits > li.book::before {
+    background-image: url(glyphicons_351_book_open.png);
+}
+
+.packages .benefits > li.screencasts::before {
+    background-image: url(glyphicons_180_facetime_video.png);
+}
+
+.packages .benefits > li.interviews::before {
+    background-image: url(glyphicons_300_microphone.png);
+}
+
+.packages .benefits > li.code::before {
+    background-image: url(glyphicons_071_book.png);
+}
+
+.packages .benefits > li.cheat::before {
+    background-image: url(glyphicons_029_notes_2.png);
+}
+
+#testimonials h3 {
+    font-family: 'Archer A', 'Archer B';
+    font-weight: 400;
+    font-style: italic;
+}
+
+#testimonials h3 > span {
+    position: absolute;
+    margin-left: -2.1154rem;
+    margin-top: -.1em;
+    font-size: 4.2308rem;
+}
+
+.cta > h3 {
+    padding: 1rem 0 !important;
+}
+
+.cta > ul {
+    width: 17rem;
+    margin: 0 auto;
+}
+
+.cta > ul > li {
+    list-style-type: circle;
+}
+
+.packages h3.complete-top {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 2.6154rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 4rem 0 1rem 0;
+    margin: 0;
+    line-height: 3rem;
+}
+
+.packages h3.incomplete a {
+    line-height: 2.5rem;
+    color: #e46119;
+}
+
+.packages h3.incomplete + p {
+    text-align: center;
+    margin: 0;
+}
+
+/*
+header > #cta1 > #mc_embed_signup {
+    background-color: rgba(255,127,44,1);
+    padding: 0;
+    border-radius: 10px;
+    margin-top: 0rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+*/
+
+#video-image {
+    /* 400 x 243*/
+    height:122px; 
+    width:200px
+}
+
+.strike {
+    position: relative;
+    display: inline-block;
+}
+.strike::before {
+    content: '';
+    border-bottom: 8px solid rgba(110,50,20,.5);
+    width: 120%;
+    position: absolute;
+    right: -13%;
+    top: 44%;
+
+    transform:rotate(-28deg);
+    -ms-transform:rotate(-28deg);
+    -moz-transform:rotate(-28deg);
+    -webkit-transform:rotate(-28deg);
+    -o-transform:rotate(-28deg);
+
+}
+
+.packages .cta > .buy {
+/*    margin: 2rem auto 0rem auto;*/
+    margin-left: -2.2rem;
+}
+
+@media screen and (min-width: 675px) {
+    
+    #video-image {
+        height:243px; 
+        width:400px
+    }
+    .group:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    header {
+        width: 38rem;
+        /*margin: 1rem auto 0 auto;*/
+        margin: 0 auto 0 auto;
+        padding-top: 2em;
+    }
+
+    header > figure, header > .get {
+        padding: 0 2rem 0 0;
+    }
+
+    header > h1, header > #cta1 {
+        padding: 0 0 0 2rem;
+    }
+
+    header > h1, header > figure {
+        width: 17rem;
+        float: right;
+    }
+
+    header > .get {
+        width: 17rem;
+        float: left;
+        padding-top: 8rem;
+    }
+
+    header > #cta1 {
+            width: 17rem;
+            float: left;
+            padding-top: 10rem;
+        }
+    
+    header > #cta1 > a {
+        position: absolute;
+        margin: 0;
+        margin-top: -240px;
+    }
+
+    header > #cta1 > #sib_embed_signup {
+        position: absolute;
+        margin: 0;
+        margin-top: 0;
+    }
+    
+    header > #cta1 > #sib_embed_signup {
+        background-color: rgba(255,127,44,1);
+        padding: 0;
+        margin-left: -1rem;
+        border-radius: 10px;
+        margin-top: -32rem;
+        width: 300px;
+    }
+    
+    header > #cta1 > h2.testimonial {
+        clear: both;
+        margin-top: 220px;
+    }
+
+    header > .get > h3 {
+        margin-top: -80px;
+    }
+
+    .copy, .sample, .faq, .packages > li > .wrapper {
+        width: 34rem;
+    }
+
+    #testimonials > h3 {
+        margin-top: 2rem;
+    }
+
+    #testimonials > p {
+        margin-bottom: 2rem;
+        text-align: right;
+    }
+
+    .clear {
+        clear: both;
+    }
+
+    .packages .benefits > li {
+        float: left;
+        clear: right;
+        height: 125px;
+    }
+
+    .packages .complete .cta {}
+
+    .packages .videos .benefits > li, .packages .complete .benefits > li,
+    .packages .book .benefits > li, .packages .interviews > li {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 50%;
+        float: left;
+    }
+
+    .packages .complete .benefits > li, .packages .videos .benefits > li {
+        padding-right: 1rem;
+    }
+
+    .packages .interviews > li:nth-of-type(2n + 1) {
+        clear: left;
+        padding-right: 1rem;
+    }
+
+    .packages .interviews > li:nth-of-type(2n) {
+        padding-left: 1rem;
+    }
+
+    .packages .interviews > li > figure, .packages .interviews > li > p {
+        margin: 0;
+    }
+
+    .packages .interviews > li > figure {
+        margin-top: .5rem;
+        margin-right: .5rem;
+    }
+
+    .packages .interviews {
+        clear: both;
+    }
+
+    /* --------- */
+    .packages .videos .benefits > li.big, .packages .complete .benefits > li.big,
+    .packages .book .benefits > li.big, .packages .interviews > li.big {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 100%;
+        float: left;
+        margin-bottom: 0;
+    }
+
+    .packages .complete .benefits > li.big, .packages .videos .benefits > li.big {
+        padding-right: 1rem;
+    }
+
+    .packages .interviews > li.big:nth-of-type(2n + 1) {
+        clear: left;
+        padding-right: 1rem;
+    }
+
+    .packages .interviews > li.big:nth-of-type(2n) {
+        padding-left: 1rem;
+    }
+
+    .packages .interviews > li.big > figure, .packages .interviews > li.big > p {
+        margin: 0;
+    }
+
+    .packages .interviews > li.big > figure {
+        margin-top: .5rem;
+        margin-right: .5rem;
+    }
+
+    .packages .interviews {
+        clear: both;
+    }    
+    /* --------- */
+    .packages .cta > .buy {
+        margin: 2rem auto 0rem auto;
+    }
+    
+    #about figure {
+        width: 33.3%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    header {
+        width: 54rem;
+        padding-top: 0;
+    }
+
+    header > h1 {
+        float: left;
+        padding: 2rem 2rem 0 0;
+    }
+
+    header > figure {
+        width: 500px;
+        max-width: 500px;
+        float: left;
+        padding: 0 0 0 2rem;
+    }
+
+    header > figure > img {
+        width: 500px;
+        max-width: 500px;
+    }
+
+    header > .get, header > #cta1 {
+        padding: 1rem 0 0 0;
+        float: right;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    header > .get {
+        width: 66%;
+        padding-left: 2rem;
+    }
+
+    header > .get > ul, header > .get > h3 {
+        width: 100%;
+        padding-left: 3rem;
+    }
+
+    header > #cta1 {
+        width: 33%;
+        padding-right: 2rem;
+    }
+
+    header > #cta1 > a {
+        position: static;
+        margin: 4.65rem 0 0 0;
+    }
+
+    header > #cta1 > h2.testimonial {
+        padding: 0;
+        margin-top: -14rem;
+        margin-left: 1rem;
+    }
+    
+    header > .get > h3 {
+        margin-top: -1rem;
+    }
+    
+    header > #cta1 > #sib_embed_signup {
+        margin-top: 0;
+        margin-left: -1rem;
+        width: 300px;
+    }
+    
+}
+
+p.testimonial {
+    font-family: 'Archer A', 'Archer B';
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.6154rem;
+    line-height: 1.3em;
+}
+
+#sharing {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1rem;
+}
+
+.gumroad-button-logo {
+    display: none !important;
+}
